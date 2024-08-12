@@ -1,5 +1,3 @@
-package day5;
-
 import java.util.TreeMap;
 
 public class Customer implements Comparable<Customer> 
