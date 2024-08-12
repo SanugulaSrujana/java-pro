@@ -7,7 +7,7 @@ public class Customer implements Comparable<Customer>
 	String name;
 	String location;
 	String email;
-	Customer()
+	public Customer()
 	{
 		this.customerId=101;
 		this.setName("nandu");
@@ -16,7 +16,7 @@ public class Customer implements Comparable<Customer>
 		String det=this.getName()+"\t"+this.email+"\t"+this.getLocation();
 		details.put(this.customerId,det);
 	}
-	Customer(int customerId,String name,String location,String email)
+	public Customer(int customerId,String name,String location,String email)
 	{
 		this.customerId=customerId;
 		this.setName(name);
